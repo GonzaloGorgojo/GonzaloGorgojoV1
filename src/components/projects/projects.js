@@ -68,7 +68,7 @@ export function Projects() {
                 </Col>
                 <Col>
                   <Button
-                    href="https://github.com/GonzaloGorgojo/gonzalogorgojov2"
+                    href="https://github.com/GonzaloGorgojo/gonzalogorgojo.github.io"
                     target="_blank"
                     rel="noreferrer"
                     variant="danger"
