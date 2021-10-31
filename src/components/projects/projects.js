@@ -58,7 +58,7 @@ export function Projects() {
               <Row>
                 <Col>
                   <Button
-                    href="https://github.com/GonzaloGorgojo/BurgerProject_FrontEnd"
+                    href="https://gonzalogorgojo.github.io/"
                     target="_blank"
                     rel="noreferrer"
                     variant="danger"

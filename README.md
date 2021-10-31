@@ -1,6 +1,6 @@
 # My personal Portfolio
 
-### 👉 What is this ?
+### What is this ?
 
 This is my personal portfolio to show the world what i have done and what im doing right now !
 
@@ -18,7 +18,7 @@ This is my personal portfolio to show the world what i have done and what im doi
 
 ### :floppy_disk: Where is this APP deployed ?
 
-[GH-Pages](https://gonzalogorgojo.github.io/BurgerProject_FrontEnd)
+[GH-Pages](https://gonzalogorgojo.github.io/)
 
 ### :bulb:How To Use
 
