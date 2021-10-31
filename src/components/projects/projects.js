@@ -25,6 +25,7 @@ export function Projects() {
               <Row>
                 <Col>
                   <Button
+                    id="buttonProject"
                     href="https://gonzalogorgojo.github.io/BurgerProject_FrontEnd/"
                     target="_blank"
                     rel="noreferrer"
@@ -35,6 +36,7 @@ export function Projects() {
                 </Col>
                 <Col>
                   <Button
+                    id="buttonProject"
                     href="https://github.com/GonzaloGorgojo/BurgerProject_FrontEnd"
                     target="_blank"
                     rel="noreferrer"
@@ -58,6 +60,7 @@ export function Projects() {
               <Row>
                 <Col>
                   <Button
+                    id="buttonProject"
                     href="https://gonzalogorgojo.github.io/"
                     target="_blank"
                     rel="noreferrer"
@@ -68,6 +71,7 @@ export function Projects() {
                 </Col>
                 <Col>
                   <Button
+                    id="buttonProject"
                     href="https://github.com/GonzaloGorgojo/gonzalogorgojo.github.io"
                     target="_blank"
                     rel="noreferrer"
@@ -91,6 +95,7 @@ export function Projects() {
               <Row>
                 <Col>
                   <Button
+                    id="buttonProject"
                     href="https://burgers-reviews.herokuapp.com/api/documentation/"
                     target="_blank"
                     rel="noreferrer"
@@ -101,6 +106,7 @@ export function Projects() {
                 </Col>
                 <Col>
                   <Button
+                    id="buttonProject"
                     href="https://github.com/GonzaloGorgojo/BurgerProject_BackEnd-API"
                     target="_blank"
                     rel="noreferrer"
@@ -122,6 +128,7 @@ export function Projects() {
               <Row>
                 <Col>
                   <Button
+                    id="buttonProject"
                     href="https://github.com/GonzaloGorgojo/ReactNative-GuessANumber"
                     target="_blank"
                     rel="noreferrer"
