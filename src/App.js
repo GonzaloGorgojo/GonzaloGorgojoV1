@@ -6,6 +6,7 @@ import { Header } from "./components/header/header";
 import { About } from "./components/about/about";
 import { Footer } from "./components/footer/footer";
 import { Skills } from "./components/skills/skills";
+import { Projects } from "./components/projects/projects";
 
 function App() {
   return (
@@ -14,17 +15,20 @@ function App() {
         <Header />
         <Introduction />
       </Row>
-      <Row>
+      <Row id="about">
         <About />
         <ParticleBackground />
       </Row>
       <Row id="experience">
         <Experience />
       </Row>
-      <Row>
+      <Row id="projects">
+        <Projects />
+      </Row>
+      <Row id="skills">
         <Skills />
       </Row>
-      <Row id="footer">
+      <Row>
         <Footer />
       </Row>
     </Container>

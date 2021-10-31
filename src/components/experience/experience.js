@@ -11,6 +11,10 @@ import { GrTestDesktop, GrNode } from "react-icons/gr";
 export function Experience() {
   return (
     <Container id="experience">
+      <Row className="text-center text-white my-4">
+        <h1>Experience</h1>
+      </Row>
+
       <Row>
         <VerticalTimeline>
           <VerticalTimelineElement

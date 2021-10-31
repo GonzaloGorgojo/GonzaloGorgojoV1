@@ -9,6 +9,7 @@ export function Introduction() {
           <div>
             <h1>Hi, I´m Gonzalo Gorgojo 👋</h1>
             <Typical
+              id="intro"
               steps={[
                 "Software Developer",
                 2000,
