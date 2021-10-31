@@ -19,7 +19,8 @@ export function Projects() {
             <Card.Body>
               <Card.Title>Front-End Project</Card.Title>
               <Card.Text>
-                React | React-Bootstrap | React-Router | Axios
+                React | React-Bootstrap | React-Router | Axios | GH-Pages |
+                Cypress
               </Card.Text>
               <Row>
                 <Col>
@@ -52,7 +53,7 @@ export function Projects() {
             <Card.Body>
               <Card.Title>Front-End Project</Card.Title>
               <Card.Text>
-                React | Particle.js | React-Bootstrap | Scss | Cypress
+                React | Particle.js | React-Bootstrap | Scss
               </Card.Text>
               <Row>
                 <Col>
@@ -85,7 +86,7 @@ export function Projects() {
             <Card.Body>
               <Card.Title>Back-End Project</Card.Title>
               <Card.Text>
-                Node | Express | MongoDb | Moongoose | Swagger
+                Node | Express | MongoDb | Moongoose | Swagger | Heroku
               </Card.Text>
               <Row>
                 <Col>
