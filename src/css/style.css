@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+html,
+body,
+#root,
+.App {
+  background-color: #1d1516;
+}
+
+#introduction {
+  height: 100vh;
+  background-color: #170402;
+}
+
+/*todo*/
+#about {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  color: black;
+}
+
+#experience {
+  background-color: #170402;
+}
+
+#tagsLinks {
+  text-decoration: none;
+  color: rgb(211, 136, 136);
+}
+#tagsLinks:hover {
+  color: rgb(136, 74, 74);
+}
+
+#footer {
+  background-color: #170402;
+}
