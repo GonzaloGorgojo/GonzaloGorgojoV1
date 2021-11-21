@@ -3,6 +3,7 @@ import Burger from "./imgs/burgerfront.PNG";
 import BurgerBack from "./imgs/burgerback.PNG";
 import Portfolio from "./imgs/portfolio.PNG";
 import Mobile from "./imgs/mobile.PNG";
+import Contacts from "./imgs/contacts.PNG";
 
 export function Projects() {
   return (
@@ -51,6 +52,31 @@ export function Projects() {
         </Col>
         <Col>
           <Card border="light" id="cardProject">
+            <Card.Img variant="top" src={Contacts} />
+            <Card.Body>
+              <Card.Title>Back-End Project</Card.Title>
+              <Card.Text>
+                Typescript | Docker | Node-Express | Dependency Injection |
+                MongoDb | Swagger
+              </Card.Text>
+              <Row>
+                <Col>
+                  <Button
+                    id="buttonProject"
+                    href="https://github.com/GonzaloGorgojo/contacts-api"
+                    target="_blank"
+                    rel="noreferrer"
+                    variant="danger"
+                  >
+                    Repo
+                  </Button>
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card border="light" id="cardProject">
             <Card.Img variant="top" src={Portfolio} />
             <Card.Body>
               <Card.Title>Front-End Project</Card.Title>
@@ -59,13 +85,7 @@ export function Projects() {
               </Card.Text>
               <Row>
                 <Col>
-                  <Button
-                    id="buttonProject"
-                    href="https://gonzalogorgojo.github.io/"
-                    target="_blank"
-                    rel="noreferrer"
-                    variant="danger"
-                  >
+                  <Button id="buttonProject" href="#navLinks" variant="danger">
                     Demo
                   </Button>
                 </Col>
