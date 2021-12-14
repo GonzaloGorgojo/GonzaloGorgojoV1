@@ -4,6 +4,7 @@ import BurgerBack from "./imgs/burgerback.PNG";
 import Portfolio from "./imgs/portfolio.PNG";
 import Mobile from "./imgs/mobile.PNG";
 import Contacts from "./imgs/contacts.PNG";
+import video1 from "./imgs/demo.MOV";
 
 export function Projects() {
   return (
@@ -14,6 +15,47 @@ export function Projects() {
       <hr></hr>
 
       <Row xs={1} md={4} className="g-4">
+        <Col>
+          <Card border="light" id="cardProject">
+            <Card.Body>
+              <video
+                src={video1}
+                width="100%"
+                height="250"
+                autoplay="true"
+                muted
+              />
+              <Card.Title>Mobile Project</Card.Title>
+              <Card.Text>
+                React-Native | Redux | i18next | Firebase | Dark Mode | Expo
+              </Card.Text>
+              <Row>
+                <Col>
+                  <Button
+                    id="buttonProject"
+                    href="https://github.com/GonzaloGorgojo/rn-chatApp#what-is-this-grey_question"
+                    target="_blank"
+                    rel="noreferrer"
+                    variant="danger"
+                  >
+                    Demo
+                  </Button>
+                </Col>
+                <Col>
+                  <Button
+                    id="buttonProject"
+                    href="https://github.com/GonzaloGorgojo/rn-chatApp"
+                    target="_blank"
+                    rel="noreferrer"
+                    variant="danger"
+                  >
+                    Repo
+                  </Button>
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
+        </Col>
         <Col>
           <Card border="light" id="cardProject">
             <Card.Img variant="top" src={Burger} />
