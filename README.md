@@ -26,7 +26,7 @@ This is my personal portfolio to show the world what i have done and what im doi
 - Run `npm i`
 - Check it out using `npm start`
 
-###:gear: Contribution
+### :gear: Contribution
 
 If you have any suggestions on what to improve in <em>this project</em> and would like to share them, feel free to leave an issue or fork project to implement your own ideas :slightly_smiling_face:
 
