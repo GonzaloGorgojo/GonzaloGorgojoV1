@@ -41,19 +41,19 @@ export function Skills() {
           <h6>Express</h6>
           <SiJavascript size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>MongoDb</h6>
           <SiMongodb size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>NestJs</h6>
           <SiNestjs size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>React native</h6>
           <GoDeviceMobile size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>SQL</h6>
           <AiOutlineConsoleSql size={30} />
         </Col>
@@ -79,19 +79,19 @@ export function Skills() {
           <h6>Git</h6>
           <DiGit size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>Docker</h6>
           <SiDocker size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>Cypress</h6>
           <SiCypress size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>Jira</h6>
           <SiJira size={30} />
         </Col>
-        <Col>
+        <Col id="icons">
           <h6>Google Cloud</h6>
           <SiGoogle size={30} />
         </Col>

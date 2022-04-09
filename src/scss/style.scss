@@ -41,12 +41,15 @@
   }
   #containerAbout {
     width: 90vw;
-    top: 155%;
+    top: 165%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     position: absolute;
     color: black;
+  }
+  #icons {
+    margin-top: 2vh;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -55,7 +58,7 @@
   }
   #containerAbout {
     width: 90vw;
-    top: 160%;
+    top: 170%;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
@@ -64,6 +67,9 @@
     p {
       font-size: 0.9rem;
     }
+  }
+  #icons {
+    margin-top: 2vh;
   }
 }
 #experience {
