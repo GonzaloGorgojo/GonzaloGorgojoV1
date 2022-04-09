@@ -12,6 +12,7 @@ import {
   SiCypress,
   SiJira,
   SiGoogle,
+  SiNestjs,
 } from "react-icons/si";
 import { GoDeviceMobile } from "react-icons/go";
 import { AiOutlineConsoleSql } from "react-icons/ai";
@@ -45,8 +46,8 @@ export function Skills() {
           <SiMongodb size={30} />
         </Col>
         <Col>
-          <h6>Kotlin</h6>
-          <SiKotlin size={30} />
+          <h6>NestJs</h6>
+          <SiNestjs size={30} />
         </Col>
         <Col>
           <h6>React native</h6>

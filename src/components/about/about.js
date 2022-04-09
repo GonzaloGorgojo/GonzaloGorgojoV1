@@ -1,5 +1,5 @@
 import React from "react";
-import Gon from "./imgs/gon.PNG";
+import Gon from "./imgs/gon.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
