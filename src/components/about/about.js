@@ -17,9 +17,11 @@ export function About() {
           <Row>
             <p>
               I am a proactive, sociable and committed Software Developer, with
-              the ability to analyze and solve problems. I enjoy looking for
-              solutions and discussing diferent alternatives to solve the
-              problems in a efficent way.
+              the ability to analyze and solve problems in a efficent way.
+              <br />I enjoy looking for solutions and discussing with the team
+              diferent alternatives to solve problems following good practices
+              (SOLID).
+              <br />I like sports and try new technologies building things.
             </p>
           </Row>
           <Row>
