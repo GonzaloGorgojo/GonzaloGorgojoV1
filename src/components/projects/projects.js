@@ -2,9 +2,7 @@ import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import Burger from "./imgs/burgerfront.PNG";
 import BurgerBack from "./imgs/burgerback.PNG";
 import Portfolio from "./imgs/portfolio.PNG";
-import Mobile from "./imgs/mobile.PNG";
 import Contacts from "./imgs/contacts.PNG";
-import video1 from "./imgs/demo.MOV";
 
 export function Projects() {
   return (
@@ -15,47 +13,6 @@ export function Projects() {
       <hr></hr>
 
       <Row xs={1} md={4} className="g-4">
-        <Col>
-          <Card border="light" id="cardProject">
-            <Card.Body>
-              <video
-                src={video1}
-                width="100%"
-                height="250"
-                autoplay="true"
-                muted
-              />
-              <Card.Title>Mobile Project</Card.Title>
-              <Card.Text>
-                React-Native | Redux | i18next | Firebase | Dark Mode | Expo
-              </Card.Text>
-              <Row>
-                <Col>
-                  <Button
-                    id="buttonProject"
-                    href="https://github.com/GonzaloGorgojo/rn-chatApp#what-is-this-grey_question"
-                    target="_blank"
-                    rel="noreferrer"
-                    variant="danger"
-                  >
-                    Demo
-                  </Button>
-                </Col>
-                <Col>
-                  <Button
-                    id="buttonProject"
-                    href="https://github.com/GonzaloGorgojo/rn-chatApp"
-                    target="_blank"
-                    rel="noreferrer"
-                    variant="danger"
-                  >
-                    Repo
-                  </Button>
-                </Col>
-              </Row>
-            </Card.Body>
-          </Card>
-        </Col>
         <Col>
           <Card border="light" id="cardProject">
             <Card.Img variant="top" src={Burger} />
@@ -69,7 +26,7 @@ export function Projects() {
                 <Col>
                   <Button
                     id="buttonProject"
-                    href="https://gonzalogorgojo.github.io/BurgerProject_FrontEnd/"
+                    href="https://gonzalogorgojo.github.io/react-burger-review/"
                     target="_blank"
                     rel="noreferrer"
                     variant="danger"
@@ -80,7 +37,7 @@ export function Projects() {
                 <Col>
                   <Button
                     id="buttonProject"
-                    href="https://github.com/GonzaloGorgojo/BurgerProject_FrontEnd"
+                    href="https://github.com/GonzaloGorgojo/react-burger-review"
                     target="_blank"
                     rel="noreferrer"
                     variant="danger"
@@ -134,7 +91,7 @@ export function Projects() {
                 <Col>
                   <Button
                     id="buttonProject"
-                    href="https://github.com/GonzaloGorgojo/gonzalogorgojo.github.io"
+                    href="https://gonzalogorgojo.github.io/GonzaloGorgojoV1/"
                     target="_blank"
                     rel="noreferrer"
                     variant="danger"
@@ -158,7 +115,7 @@ export function Projects() {
                 <Col>
                   <Button
                     id="buttonProject"
-                    href="https://burgers-reviews.herokuapp.com/api/documentation/"
+                    href="https://burger-reviews.onrender.com/api/documentation/"
                     target="_blank"
                     rel="noreferrer"
                     variant="danger"
@@ -169,29 +126,7 @@ export function Projects() {
                 <Col>
                   <Button
                     id="buttonProject"
-                    href="https://github.com/GonzaloGorgojo/BurgerProject_BackEnd-API"
-                    target="_blank"
-                    rel="noreferrer"
-                    variant="danger"
-                  >
-                    Repo
-                  </Button>
-                </Col>
-              </Row>
-            </Card.Body>
-          </Card>
-        </Col>
-        <Col>
-          <Card border="light" id="cardProject">
-            <Card.Img variant="top" src={Mobile} />
-            <Card.Body>
-              <Card.Title>Mobile Project</Card.Title>
-              <Card.Text>React Native | Expo</Card.Text>
-              <Row>
-                <Col>
-                  <Button
-                    id="buttonProject"
-                    href="https://github.com/GonzaloGorgojo/ReactNative-GuessANumber"
+                    href="https://github.com/GonzaloGorgojo/express-burger-review-api"
                     target="_blank"
                     rel="noreferrer"
                     variant="danger"

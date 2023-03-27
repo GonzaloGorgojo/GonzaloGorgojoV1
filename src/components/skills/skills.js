@@ -4,7 +4,6 @@ import {
   SiTypescript,
   SiJavascript,
   SiMongodb,
-  SiKotlin,
   SiPostman,
   SiJenkins,
   SiDocker,

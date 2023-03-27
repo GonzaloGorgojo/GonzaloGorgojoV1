@@ -5,8 +5,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { Container, Row } from "react-bootstrap";
 import { GiSandsOfTime } from "react-icons/gi";
-import { SiCypress, SiTypescript } from "react-icons/si";
-import { GrTestDesktop, GrNode } from "react-icons/gr";
+import { SiTypescript } from "react-icons/si";
+import { GrNode } from "react-icons/gr";
 
 export function Experience() {
   return (
@@ -21,58 +21,7 @@ export function Experience() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#300704", color: "white" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(74, 11, 7)" }}
-            date="Jan 2019 - Aug 2020"
-            iconStyle={{ background: "rgb(74, 11, 7)", color: "#fff" }}
-            icon={<GrTestDesktop />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              Manual Tester QA @ Egotech
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Buenos Aires, Argentina
-            </h4>
-            <ul>
-              <li>Analysis of requirements</li>
-              <li>Creation and Execution of test cases</li>
-              <li>Conducting Review Meetings</li>
-              <li>Bug Tracking</li>
-              <li>Interaction with the development area</li>
-            </ul>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "#300704", color: "white" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(74, 11, 7)" }}
-            date="Aug 2020 - Jan 2021"
-            iconStyle={{ background: "rgb(74, 11, 7)", color: "#fff" }}
-            icon={<SiCypress />}
-          >
-            <h3 className="vertical-timeline-element-title">
-              QA Automation @{" "}
-              <a
-                id="tagsLinks"
-                href="https://simplesolutions.com.ar/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Simple Solutions
-              </a>
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Buenos Aires, Argentina
-            </h4>
-            <ul>
-              <li>Test Automation Using Selenium and Cypress.</li>
-              <li>Documentation and evidence taking.</li>
-              <li>Bug report and monitoring with JIRA</li>
-              <li>Automated Testing and Monitoring with Postman/Cypress.</li>
-            </ul>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            contentStyle={{ background: "#300704", color: "white" }}
-            contentArrowStyle={{ borderRight: "7px solid  rgb(74, 11, 7)" }}
-            date="Jan 2021 - Apr 2021"
+            date="Aug 2020 - Apr 2021"
             iconStyle={{ background: "rgb(74, 11, 7)", color: "#fff" }}
             icon={<GrNode />}
           >
@@ -106,7 +55,7 @@ export function Experience() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#300704", color: "white" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(74, 11, 7)" }}
-            date="Apr 2021 - Present"
+            date="Jun 2021 - Oct 222"
             iconStyle={{ background: "rgb(74, 11, 7)", color: "#fff" }}
             icon={<GrNode />}
           >
@@ -134,7 +83,7 @@ export function Experience() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#300704", color: "white" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(74, 11, 7)" }}
-            date="Apr 2021 - Mar 2022"
+            date="Apr 2021 - Feb 2022"
             iconStyle={{ background: "rgb(74, 11, 7)", color: "#fff" }}
             icon={<SiTypescript />}
           >
@@ -162,7 +111,7 @@ export function Experience() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: "#300704", color: "white" }}
             contentArrowStyle={{ borderRight: "7px solid  rgb(74, 11, 7)" }}
-            date="Apr 2022 - Present"
+            date="Feb 2022 - Present"
             iconStyle={{ background: "rgb(74, 11, 7)", color: "#fff" }}
             icon={<SiTypescript />}
           >
@@ -181,6 +130,7 @@ export function Experience() {
               Toronto, Canada.
             </h4>
             <ul>
+              <li>Developing a mobile app with React Natives.</li>
               <li>Developing microservices with NestJS.</li>
               <li>Using VueJS for Frontend.</li>
             </ul>
